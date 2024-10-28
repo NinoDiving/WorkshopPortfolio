@@ -1,3 +1,10 @@
+header {
+    background-image: url("src/assets/pexels-pixabay-459653.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
 .NavBar {
     display: flex;
     justify-content: space-between;
@@ -15,4 +22,29 @@
 }
 .navLinks a:hover {
     color: blue;
+}
+.A_Propos {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    
+    text-shadow: 1px 1px 10px  rgb(255, 255, 255), -1px -1px 5px rgb(255, 255, 255), -1px 1px 10px  rgb(255, 255, 255), 1px -1px 10px  rgb(255, 255, 255);
+    font-weight: bold;
+}
+.A_Propos h2 {
+    
+    font-size: 28px;
+}
+.firstButton {
+    background-color: rgb(62, 62, 112);
+    color: aliceblue;
+    border: solid 3px rgb(223, 216, 216);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: inset 3px 3px 3px 3px grey;
+    display: block;
+    margin: auto;
+}
+.firstButton:hover {
+    background-color: rgb(155, 155, 202);
 }
