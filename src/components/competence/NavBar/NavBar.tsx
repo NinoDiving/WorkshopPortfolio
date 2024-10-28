@@ -1,0 +1,28 @@
+import "./NavBar.css"
+
+interface NavLink  {
+    text: string;
+    href: string;
+}
+interface NavBarProps{
+    logo: string;
+    links: NavLink [];
+}
+
+export default  function NavBar ({logo,links}:NavBarProps){
+    return (
+        
+        <header>
+            <nav className="NavBar">
+                    <img className="logo" src={logo} alt="logo"/>
+                <ul className="navLinks">
+                    {links.map((link,index)=>(
+                        <li key={index} className="NavItem">
+                            <a href={link.href}>{link.text}</a>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
+        </header>
+    )   
+}
