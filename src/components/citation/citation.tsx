@@ -11,11 +11,11 @@ export default function Citation() {
 	};
 	return (
 		<article className="citation">
-			<h3 style={{ color: "#54494B", opacity: "0.8" }}>
+			<h3 style={{ color: "black", opacity: "0.6" }}>
 				Mes citations préférées :{" "}
 			</h3>
 			<p>{citations[citationIndex].description}</p>
-			<p style={{ color: "black", opacity: "0.7" }}>
+			<p style={{ color: "black", opacity: "0.5" }}>
 				{citations[citationIndex].name}
 			</p>
 			<button type="button" className="nextQuote" onClick={handleClick}>
