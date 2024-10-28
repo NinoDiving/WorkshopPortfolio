@@ -1,50 +1,50 @@
 header {
-    background-image: url("src/assets/pexels-pixabay-459653.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
+  background-image: url("src/assets/pexels-pixabay-459653.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  height: 60vh;
 }
 .NavBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
 }
 .logo {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
 
 .navLinks {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 .navLinks a:hover {
-    color: blue;
+  color: blue;
+}
+h2 {
+  font-size: 36px;
 }
 .A_Propos {
-    text-align: center;
-    margin: 10px;
-    font-size: 20px;
-    
-    text-shadow: 1px 1px 10px  rgb(255, 255, 255), -1px -1px 5px rgb(255, 255, 255), -1px 1px 10px  rgb(255, 255, 255), 1px -1px 10px  rgb(255, 255, 255);
-    font-weight: bold;
-}
-.A_Propos h2 {
-    
-    font-size: 28px;
+  padding-top: 120px;
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .firstButton {
-    background-color: rgb(62, 62, 112);
-    color: aliceblue;
-    border: solid 3px rgb(223, 216, 216);
-    border-radius: 20px;
-    padding: 10px;
-    box-shadow: inset 3px 3px 3px 3px grey;
-    display: block;
-    margin: auto;
+  background-color: rgb(62, 62, 112);
+  color: aliceblue;
+  border: solid 3px rgb(223, 216, 216);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: inset 3px 3px 3px 3px grey;
+  display: block;
+  margin: auto;
 }
 .firstButton:hover {
-    background-color: rgb(155, 155, 202);
+  background-color: rgb(155, 155, 202);
 }
