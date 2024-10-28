@@ -24,21 +24,22 @@ padding-bottom: 2rem;
 }
 
 .skillsProgress{
-  display: flex;
- flex-direction: column;
- gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
   
 }
 
-.skillsProgress h4{
-  text-align: center;
+.skillsProgress label{
+  grid-column: span 2;
   font-weight: 500;
-  padding-top: 4rem;
+
 }
 
 .skillsProgress progress{
   height: 12px;
+  margin-bottom: 2rem;
+
 
 }
 

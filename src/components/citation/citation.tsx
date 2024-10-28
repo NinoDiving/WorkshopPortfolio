@@ -18,8 +18,13 @@ export default function Citation() {
 
 	return (
 		<article className="citation">
-			<h3 style={{ color: "black", opacity: "0.6" }}>
-				Mes citations préférées :{" "}
+			<h3
+				style={{
+					color: "black",
+					opacity: "0.6",
+				}}
+			>
+				Mes citations préférées :
 			</h3>
 			<p>{citations[citationIndex].description}</p>
 			<p style={{ color: "black", opacity: "0.5" }}>
