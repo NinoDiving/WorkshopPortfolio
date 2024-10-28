@@ -1,13 +1,20 @@
 .skills{
 display: flex;
 flex-direction: column;
+padding-bottom: 2rem;
 
 }
+
+
+
 
 .skills h2{
   font-size: 2.5rem;
   font-weight: 500;
   color:#03224C;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .skills p{
@@ -19,16 +26,32 @@ flex-direction: column;
 .skillsProgress{
   display: flex;
  flex-direction: column;
+ gap: 10px;
 
   
 }
 
-.skillsProgress progress{
-  height: 10px;
+.skillsProgress h4{
+  text-align: center;
+  font-weight: 500;
+  padding-top: 4rem;
 }
 
+.skillsProgress progress{
+  height: 12px;
+
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 10px;
+}
 .skillsProgress label{
   align-content: center;
+}
+
+progress::-webkit-progress-value {
+  background-color: #03224C;
+  border-radius: 10px;
 }
 
 .imgSkills{
@@ -50,6 +73,7 @@ flex-direction: column;
   border-radius: 5px;
   cursor: pointer;
   background-color: #03224C;
+  margin-left: 7.5rem;
   color: white;
   padding: 1rem;
   transition: 0.4s;

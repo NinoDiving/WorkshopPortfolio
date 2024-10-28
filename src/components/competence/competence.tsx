@@ -1,3 +1,5 @@
+import "./competenceData";
+import ProgressBar from "./progressBar";
 import "./style.css";
 
 export default function Competence() {
@@ -11,71 +13,16 @@ export default function Competence() {
 			</p>
 			<section className="imgSkills">
 				<article className="skillsProgress">
-					<h4>Back-end</h4>
-					<label htmlFor="php">PHP</label>
-					<progress id="php" max="100" value="82">
-						82%%
-					</progress>
-					<label htmlFor="sql">SQL</label>
-					<progress id="sql" max="100" value="80">
-						80%
-					</progress>
-					<label htmlFor="symfony">SYMFONY</label>
-					<progress id="php" max="100" value="63">
-						63%
-					</progress>
-					<label htmlFor="">CODEIGNITER</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
-					<label htmlFor="smarty">SMARTY</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
-					<h4>Front-end</h4>
-					<label htmlFor="smarty">SMARTY</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
-					<label htmlFor="smarty">SMARTY</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
-					<label htmlFor="smarty">SMARTY</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
-					<h4>CMS</h4>
-					<label htmlFor="smarty">SMARTY</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
-					<label htmlFor="smarty">SMARTY</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
-					<label htmlFor="smarty">SMARTY</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
-					<h4>Divers</h4>
-					<label htmlFor="smarty">SMARTY</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
-					<label htmlFor="smarty">SMARTY</label>
-					<progress id="php" max="100" value="60">
-						60%
-					</progress>
+					<ProgressBar />
 				</article>
 				<figure>
 					<img className="stephProfil" src="./src/assets/stephPic.jpg" alt="" />
 					<a
 						className="downloadPic"
-						href="./src/assets/stephPic.jpg"
-						download="stephPic.jpg"
+						href="./src/assets/cvStef.png"
+						download="cvStef.png"
 					>
-						Télécharger ma photo
+						Télécharger mon CV
 					</a>
 				</figure>
 			</section>
