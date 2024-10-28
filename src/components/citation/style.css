@@ -1,0 +1,27 @@
+.citation{
+  text-align: center;
+  color: whitesmoke;
+  background-image: url(./src/assets/bannerCitation.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  height: 250px;
+  align-content: center;
+  font-size: 2rem;
+}
+
+.citation p{
+  width: 80ch;
+  margin: auto;
+}
+
+.nextQuote{
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+.nextQuote:hover{
+  font-size: 1.8rem;
+}
