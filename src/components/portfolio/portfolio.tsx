@@ -4,7 +4,7 @@ import "./style.css";
 export default function PortFolio() {
 	return (
 		<section className="portfolio">
-			<h2>PORTFOLIO</h2>
+			<h2 id="portfolio">PORTFOLIO</h2>
 			<p>
 				Ci-dessous, quelques exemples de réalisations effectuées durant la
 				formation, le stage et plus encore :

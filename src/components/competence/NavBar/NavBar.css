@@ -4,7 +4,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: rgb(255, 255, 255);
-	height: 60vh;
+	height: 70vh;
 	position: relative;
 }
 
@@ -21,11 +21,13 @@ header {
 	background-color: rgba(211, 211, 211, 0.358);
 }
 .logo {
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 	border-radius: 50%;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 .navLinks {
 	display: flex;
 	gap: 20px;
