@@ -9,12 +9,12 @@ export default function PortFolio() {
 				Ci-dessous, quelques exemples de réalisations effectuées durant la
 				formation, le stage et plus encore :
 			</p>
-			<Carousel className="carousel" interval={3000} showArrows={true}>
+			<Carousel className="carousel" showArrows={true}>
 				<div className="projetContainer">
 					<img src="./src/assets/projet1.jpg" alt="" />
 				</div>
 				<div className="projetContainer">
-					<img src="./src/assets/projet2.jpg" alt="" />
+					<img src="./src/assets/projet2.jpg" height="80%" alt="" />
 				</div>
 				<div className="projetContainer">
 					<img src="./src/assets/projet3.jpg" alt="" />
