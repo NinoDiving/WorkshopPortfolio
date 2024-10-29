@@ -16,7 +16,12 @@ export default function Competence() {
 					<ProgressBar />
 				</article>
 				<figure>
-					<img className="stephProfil" src="./src/assets/stephPic.jpg" alt="" />
+					<img
+						id="skill"
+						className="stephProfil"
+						src="./src/assets/stephPic.jpg"
+						alt=""
+					/>
 					<a
 						className="downloadPic"
 						href="./src/assets/cvStef.png"
