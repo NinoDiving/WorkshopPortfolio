@@ -3,6 +3,9 @@ import Citation from "./components/citation/citation";
 import NavBar from "./components/competence/NavBar/NavBar";
 import Competence from "./components/competence/competence";
 
+import PortFolio from "./components/portfolio/portfolio";
+
+
 function App() {
 	const navigation = [
 		{
@@ -60,6 +63,12 @@ function App() {
 	];
 	return (
 		<>
+
+			<NavBar logo="./src/assets/stephPic.jpg" links={navigation} />
+			<Competence />
+			<Citation />
+			<PortFolio />
+
 			<NavBar logo="./src/assets/Untitled design.png" links={navigation} />
 			<Competence />
 			<Citation />
