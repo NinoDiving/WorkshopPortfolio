@@ -1,0 +1,16 @@
+.Footer {
+	height: 150px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-shadow: 4px 3px 0 #160fd5, 2px 2px 2px rgba(206, 89, 55, 0);
+	text-align: center;
+	align-content: center;
+	font-size: 18px;
+}
+.hdp:hover {
+	color: rgb(114, 114, 140);
+}
+html {
+	scroll-behavior: smooth;
+}

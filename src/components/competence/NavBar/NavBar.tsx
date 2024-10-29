@@ -11,8 +11,13 @@ interface NavBarProps {
 
 export default function NavBar({ logo, links }: NavBarProps) {
 	return (
+
 		<header className="header">
 			<nav className="NavBar">
+
+		<header>
+			<nav id="haut-de-page" className="NavBar">
+
 				<img className="logo" src={logo} alt="logo" />
 				<ul className="navLinks">
 					{links.map((link, index) => (

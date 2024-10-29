@@ -2,6 +2,7 @@ import Form from "./components/Form/form";
 import Citation from "./components/citation/citation";
 import NavBar from "./components/competence/NavBar/NavBar";
 import Competence from "./components/competence/competence";
+import FooterPage from "./components/footer/footer";
 
 import PortFolio from "./components/portfolio/portfolio";
 
@@ -17,15 +18,15 @@ function App() {
 		},
 		{
 			text: "Compétences",
-			href: "Compétences",
+			href: "#skill",
 		},
 		{
-			text: "Profil",
-			href: "Profil",
+			text: "Portfolio",
+			href: "#portfolio",
 		},
 		{
 			text: "Contact",
-			href: "Contact",
+			href: "#contact",
 		},
 	];
 	const formFields = [
@@ -62,11 +63,13 @@ function App() {
 	];
 	return (
 		<>
-			<NavBar logo="./src/assets/Untitled design.png" links={navigation} />
-			<Competence />
+
+			<NavBar logo="./src/assets/logo-1.png" links={navigation} />
+		  <Competence />
 			<Citation />
 			<PortFolio />
 			<Form fields={formFields} />
+			<FooterPage />
 		</>
 	);
 }
