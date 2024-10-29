@@ -3,6 +3,9 @@ import Citation from "./components/citation/citation";
 import NavBar from "./components/competence/NavBar/NavBar";
 import Competence from "./components/competence/competence";
 import FooterPage from "./components/footer/footer";
+import AboutMe from "./components/AboutMe";
+import ActualPost from "./components/ActualPost";  
+
 
 import PortFolio from "./components/portfolio/portfolio";
 
@@ -68,6 +71,8 @@ function App() {
 		  <Competence />
 			<Citation />
 			<PortFolio />
+			<AboutMe/>
+			<ActualPost/>
 			<Form fields={formFields} />
 			<FooterPage />
 		</>
