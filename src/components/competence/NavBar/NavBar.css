@@ -1,20 +1,23 @@
+
+
 header {
 	background-image: url("src/assets/altumcode-U0tBTn8UR8I-unsplash.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
 	color: rgb(255, 255, 255);
 	height: 60vh;
 	position: relative;
 }
 
-
 .NavBar {
 	display: flex;
 	justify-content: space-between;
-	position: sticky;
+	position: fixed;
+	left: 0;
+	right: 0;
 	top: 0;
-	overflow: hidden;
+	z-index: 1000;
 	align-items: center;
 	padding: 1.5rem;
 	font-size: 1.4rem;

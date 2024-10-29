@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./NavBar.css";
 
 interface NavLink {
@@ -12,7 +11,7 @@ interface NavBarProps {
 
 export default function NavBar({ logo, links }: NavBarProps) {
 	return (
-		<header>
+		<header className="header">
 			<nav className="NavBar">
 				<img className="logo" src={logo} alt="logo" />
 				<ul className="navLinks">
@@ -23,10 +22,12 @@ export default function NavBar({ logo, links }: NavBarProps) {
 					))}
 				</ul>
 			</nav>
-			<h2 className="title">Stéphanie Awkward</h2>
-			<button className="firstButton" type="button">
-				Qui suis-je ?
-			</button>
+			<div className="headerContent">
+				<h2 className="title">Stéphanie Awkward</h2>
+				<button className="firstButton" type="button">
+					Qui suis-je ?
+				</button>
+			</div>
 		</header>
 	);
 }
