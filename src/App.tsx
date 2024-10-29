@@ -63,8 +63,9 @@ function App() {
 	];
 	return (
 		<>
+
 			<NavBar logo="./src/assets/logo-1.png" links={navigation} />
-			<Competence />
+		  <Competence />
 			<Citation />
 			<PortFolio />
 			<Form fields={formFields} />
