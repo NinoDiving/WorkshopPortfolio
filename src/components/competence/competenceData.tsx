@@ -1,7 +1,7 @@
 export const competenceData = [
 	{ label: "php", progress: 82 },
 	{ label: "sql", progress: 80 },
-	{ label: "symfony", progress: 63 },
+	{ label: "symfony", progress: 55 },
 	{ label: "html", progress: 95 },
 	{ label: "css", progress: 95 },
 	{ label: "javascript", progress: 95 },
